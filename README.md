@@ -1,4 +1,5 @@
 # this is a work in progress!!!
+## i kept the original readme below
 # Plymouth-Creator
 A tool using GTK3 and Python to create your own plymouth boot animations.A tool using GTK3 and Python to easily create your own plymouth boot animations from an .mp4 video or single .png files with a GUI.
 
