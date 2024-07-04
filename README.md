@@ -13,7 +13,7 @@ When you're done, you can apply it on your own computer, or you can share it wit
 - python-3
 - PyGobject
 - tkinter
-    + `sudo pacman -S install python-tk`
+    + `sudo pacman -S install tk`
     + `pip install tk`
 - ffmpeg
 
