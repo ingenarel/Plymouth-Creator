@@ -162,7 +162,7 @@ class Handler:
       uninstallFile.write("sudo update-alternatives --quiet --remove default.plymouth /usr/share/plymouth/themes/" + name + "/" + name + ".plymouth\n")
       uninstallFile.write("sudo rm -rf /usr/share/plymouth/themes/" + name + "\n")
       uninstallFile.write("echo setting bgrt as the default bootscreen")
-      uninstallFIle.write("sudo plymouth-set-default-theme -R bgrt\n")
+      uninstallFile.write("sudo plymouth-set-default-theme -R bgrt\n")
 #      uninstallFile.write("sudo update-alternatives --quiet --auto default.plymouth\n")
 #      uninstallFile.write("sudo update-initramfs -u\n")
 #      uninstallFile.write("echo Done!\n")
