@@ -24,6 +24,8 @@ On Arch based systems, open the file "RUN ME.sh" in terminal to install the need
 The script will install the needed packages, so you'll eventually need to enter your sudo password.
 Afterwards, the script will launch the GUI, which is self explanation.
 
+and if you want to run in again in the future you can just cd into it and run the python file.
+
 ## Screenshot:
 ![screenshot1](https://raw.githubusercontent.com/Techcrafter/Plymouth-Creator/master/SCREENSHOTS/screenshot1.png)
 
