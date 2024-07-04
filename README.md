@@ -1,5 +1,5 @@
-# this is a work in progress!!!
-## i kept the original readme below
+# this is mainly some hotfixes that i made so shit works for arch. most of the built in code is from the official repo.
+## i edited the the original readme below
 # Plymouth-Creator
 A tool using GTK3 and Python to create your own plymouth boot animations.A tool using GTK3 and Python to easily create your own plymouth boot animations from an .mp4 video or single .png files with a GUI.
 
@@ -13,14 +13,14 @@ When you're done, you can apply it on your own computer, or you can share it wit
 - python-3
 - PyGobject
 - tkinter
-    + `apt-get install python-tk`
+    + `sudo pacman -S install python-tk`
     + `pip install tk`
 - ffmpeg
 
 
 ## How to run:
-Download the .zip or the .tar.gz file with the source code from the [releases section](https://github.com/Techcrafter/Plymouth-Creator/releases) and extract it.
-On Debian based systems, open the file "RUN ME.sh" in terminal to install the needed dependencies. Alternatively, install the dependencies manually from [#dependencies](#dependencies).
+clone the repo.
+On Arch based systems, open the file "RUN ME.sh" in terminal to install the needed dependencies. Alternatively, install the dependencies manually from [#dependencies](#dependencies).
 The script will install the needed packages, so you'll eventually need to enter your sudo password.
 Afterwards, the script will launch the GUI, which is self explanation.
 
@@ -28,4 +28,5 @@ Afterwards, the script will launch the GUI, which is self explanation.
 ![screenshot1](https://raw.githubusercontent.com/Techcrafter/Plymouth-Creator/master/SCREENSHOTS/screenshot1.png)
 
 ## If you need help:
-[Visit my Discord server](https://discord.gg/urxKEzf)
+[Visit the official repo's Discord server?](https://discord.gg/urxKEzf)
+or you can ping me in reddit or dc or instagram too.
